@@ -1,5 +1,6 @@
 package com.iam2kabhishek.moviewatcher
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -25,6 +26,12 @@ class MainActivity : AppCompatActivity() {
             } catch (ex: Exception) {
                 Toast.makeText(this, "Movies already added!", Toast.LENGTH_SHORT).show()
             }
+        }
+
+        val buttonSearchMovies = findViewById<Button>(R.id.buttonSearchMovies)
+        buttonSearchMovies.setOnClickListener{
+            val searchMovieIntent = Intent(this, SearchMovieActivity::class.java)
+            startActivity(searchMovieIntent)
         }
     }
 }
