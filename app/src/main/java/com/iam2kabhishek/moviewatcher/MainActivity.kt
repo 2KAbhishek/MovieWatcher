@@ -1,12 +1,10 @@
 package com.iam2kabhishek.moviewatcher
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
-import java.lang.Exception
-import java.security.spec.ECField
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val movieDao = movieDb.movieDao()
 
         val buttonAdd = findViewById<Button>(R.id.buttonAdd)
-        buttonAdd.setOnClickListener{
+        buttonAdd.setOnClickListener {
             val classicMovies = MovieData.getClassicMovies()
             try {
                 for (movie in classicMovies)
@@ -29,9 +27,15 @@ class MainActivity : AppCompatActivity() {
         }
 
         val buttonSearchMovies = findViewById<Button>(R.id.buttonSearchMovies)
-        buttonSearchMovies.setOnClickListener{
+        buttonSearchMovies.setOnClickListener {
             val searchMovieIntent = Intent(this, SearchMovieActivity::class.java)
             startActivity(searchMovieIntent)
+        }
+
+        val buttonSearchActors = findViewById<Button>(R.id.buttonSearchActors)
+        buttonSearchActors.setOnClickListener {
+            val searchActorIntent = Intent(this, SearchActorsActivity::class.java)
+            startActivity(searchActorIntent)
         }
     }
 }
