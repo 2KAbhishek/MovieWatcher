@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MovieWatcher">
         <activity
+            android:name=".SearchActorsActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
             android:name=".SearchMovieActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustPan|adjustResize" />
