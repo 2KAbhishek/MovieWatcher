@@ -18,7 +18,10 @@ abstract class MovieDatabase : RoomDatabase() {
             if (instance == null)
                 instance = Room.databaseBuilder(ctx.applicationContext,
                     MovieDatabase::class.java,
-                    "movies").fallbackToDestructiveMigration().build()
+                    "movies")
+                    .fallbackToDestructiveMigration()
+                    .allowMainThreadQueries()
+                    .build()
             return instance!!
         }
     }
