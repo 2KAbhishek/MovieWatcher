@@ -11,7 +11,8 @@
         android:theme="@style/Theme.MovieWatcher">
         <activity
             android:name=".SearchMovieActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
