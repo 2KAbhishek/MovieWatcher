@@ -15,4 +15,9 @@ data class Movie(
     val writer: String,
     val actors: String,
     val plot: String,
-)
+) {
+    override fun toString(): String {
+        return "Movie\nTitle:$title\nRated:$rated\nReleased:$released\nRuntime:$runtime\n" +
+                "Genre:$genre\nDirector:$director\nWriter:$writer\nActors:$actors\nPlot:$plot"
+    }
+}
