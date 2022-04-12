@@ -1,4 +1,4 @@
-package com.iam2kabhishek.moviewatcher
+package com.iam2kabhishek.moviewatcher.data
 
 import android.content.Context
 import androidx.room.Database

@@ -1,4 +1,4 @@
-package com.iam2kabhishek.moviewatcher
+package com.iam2kabhishek.moviewatcher.data
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

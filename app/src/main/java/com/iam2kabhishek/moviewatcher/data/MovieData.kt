@@ -1,4 +1,4 @@
-package com.iam2kabhishek.moviewatcher
+package com.iam2kabhishek.moviewatcher.data
 
 object MovieData {
     fun getClassicMovies(): ArrayList<Movie> {
