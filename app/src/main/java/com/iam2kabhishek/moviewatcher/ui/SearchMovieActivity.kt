@@ -48,5 +48,12 @@ class SearchMovieActivity : AppCompatActivity() {
 
             textMovieDetails.text = searchedNMovie.toString()
         }
+
     }
+
+    private fun getEmptyMovie(): Movie {
+        return Movie("", "", "", "", "", "",
+            "", "", "", "")
+    }
+
 }
