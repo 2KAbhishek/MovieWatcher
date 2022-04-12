@@ -15,7 +15,7 @@
             android:name=".ui.SearchTitleActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.SearchActorsActivity"
+            android:name=".ui.SearchActorActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustPan|adjustResize" />
         <activity

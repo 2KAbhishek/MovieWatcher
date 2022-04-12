@@ -8,10 +8,10 @@ import androidx.appcompat.app.AppCompatActivity
 import com.iam2kabhishek.moviewatcher.R
 import com.iam2kabhishek.moviewatcher.data.MovieDatabase
 
-class SearchActorsActivity : AppCompatActivity() {
+class SearchActorActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_search_actors)
+        setContentView(R.layout.activity_search_actor)
 
         val movieDb = MovieDatabase.getInstance(this)
         val movieDao = movieDb.movieDao()

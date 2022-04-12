@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 
         val buttonSearchActors = findViewById<Button>(R.id.buttonSearchActors)
         buttonSearchActors.setOnClickListener {
-            val searchActorIntent = Intent(this, SearchActorsActivity::class.java)
+            val searchActorIntent = Intent(this, SearchActorActivity::class.java)
             startActivity(searchActorIntent)
         }
 
