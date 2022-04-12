@@ -12,4 +12,7 @@ interface MovieDao {
 
     @Delete
     fun delete(movie: Movie)
+
+    @Query("SELECT * FROM movies WHERE actors LIKE '%' || :search || '%'")
+    fun loadActorMovies(search: String?): List<Movie>
 }
