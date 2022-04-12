@@ -7,6 +7,6 @@ import com.iam2kabhishek.moviewatcher.R
 class SearchTitleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_movies_by_title)
+        setContentView(R.layout.activity_search_title)
     }
 }
