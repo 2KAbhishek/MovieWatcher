@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 
         val buttonSearchTitles = findViewById<Button>(R.id.buttonSearchTitle)
         buttonSearchTitles.setOnClickListener {
-            val searchActorIntent = Intent(this, MoviesByTitleActivity::class.java)
+            val searchActorIntent = Intent(this, SearchTitleActivity::class.java)
             startActivity(searchActorIntent)
         }
     }

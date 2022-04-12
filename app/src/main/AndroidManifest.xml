@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MovieWatcher">
         <activity
-            android:name=".ui.MoviesByTitleActivity"
+            android:name=".ui.SearchTitleActivity"
             android:exported="false" />
         <activity
             android:name=".ui.SearchActorsActivity"
