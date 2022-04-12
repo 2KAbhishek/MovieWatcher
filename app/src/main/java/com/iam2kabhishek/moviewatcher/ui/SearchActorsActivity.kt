@@ -1,7 +1,8 @@
-package com.iam2kabhishek.moviewatcher
+package com.iam2kabhishek.moviewatcher.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.iam2kabhishek.moviewatcher.R
 
 class SearchActorsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
