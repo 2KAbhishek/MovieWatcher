@@ -6,6 +6,8 @@ import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.iam2kabhishek.moviewatcher.*
+import com.iam2kabhishek.moviewatcher.data.MovieData
+import com.iam2kabhishek.moviewatcher.data.MovieDatabase
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
