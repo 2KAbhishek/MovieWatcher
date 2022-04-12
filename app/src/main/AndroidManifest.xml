@@ -10,15 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MovieWatcher">
         <activity
-            android:name=".SearchActorsActivity"
+            android:name=".ui.SearchActorsActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustPan|adjustResize" />
         <activity
-            android:name=".SearchMovieActivity"
+            android:name=".ui.SearchMovieActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustPan|adjustResize" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
